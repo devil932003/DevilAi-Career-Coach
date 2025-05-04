@@ -11,6 +11,8 @@
   "dependencies": {
     "@clerk/nextjs": "^6.18.0",
     "@clerk/themes": "^2.2.36",
+    "@google/generative-ai": "^0.24.1",
+    "@hookform/resolvers": "^5.0.1",
     "@prisma/client": "^6.6.0",
     "@radix-ui/react-accordion": "^1.2.8",
     "@radix-ui/react-alert-dialog": "^1.1.11",
@@ -24,15 +26,20 @@
     "@radix-ui/react-tabs": "^1.1.9",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "date-fns": "^4.1.0",
     "inngest": "^3.35.1",
     "lucide-react": "^0.503.0",
     "next": "15.3.1",
     "next-themes": "^0.4.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-hook-form": "^7.56.1",
+    "react-spinners": "^0.17.0",
+    "recharts": "^2.15.3",
     "sonner": "^2.0.3",
     "tailwind-merge": "^3.2.0",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "zod": "^3.24.3"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
