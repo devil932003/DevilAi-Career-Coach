@@ -41,20 +41,19 @@ const HeroSection = () => {
         </div>
         <div className="flex justify-center space-x-4">
           <Link href="/dashboard">
-            <Button size="lg" className="px-8">
+            <Button size="lg" variant="gradient" className="px-8">
               Get Started
             </Button>
           </Link>
-          
         </div>
         <div className="hero-image-wrapper mt-5 md:mt-0">
-          <div ref={imageRef} className="hero-image">
+          <div ref={imageRef} className="hero-image object-fill">
             <Image
-              src="/banner.jpeg"
-              width={1280}
-              height={720}
+              src="/baner.png"
+              width={600} // smaller default size
+              height={400}
               alt="Dashboard Preview"
-              className="rounded-lg shadow-2xl border mx-auto"
+              className="rounded-lg shadow-2xl border mx-auto w-full max-w-[800px] h-auto"
               priority
             />
           </div>

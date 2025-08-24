@@ -198,7 +198,7 @@ export default function Home() {
             <Link href="/dashboard" passHref>
               <Button
                 size="lg"
-                variant="secondary"
+                variant="gradient"
                 className="h-11 mt-5 animate-bounce"
               >
                 Start Your Journey Today <ArrowRight className="ml-2 h-4 w-4" />
