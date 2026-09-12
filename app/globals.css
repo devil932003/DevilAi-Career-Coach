@@ -156,9 +156,9 @@
   height: 100%;
   background:
     linear-gradient(135deg,
-      #e0f7fa 0%,
-      #f0f8ff 25%,
-      #e6e6fa 50%,
+      #e0f7fa 10%,
+      #f0f8ff 35%,
+      #e6e6fa 80%,
       #ffe4e1 75%,
       #f5fffa 100%),
     linear-gradient(

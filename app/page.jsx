@@ -27,7 +27,7 @@ export default function Home() {
     <div>
       <HeroSection />
  {/* Features Section */}
-      <section className="w-full py-12 md:py-24 lg:py-32 bg-background">
+      <section className="w-full py-12 md:py-24 lg:py-32 bg-background overflow-x-hidden">
         <div className="container mx-auto px-4 md:px-6">
           <h2 className="text-3xl font-bold tracking-tighter text-center mb-12">
             Powerful Features For Your Career Growth
@@ -36,9 +36,9 @@ export default function Home() {
             {features.map((feature, index) => {
               return (
                 <Card
-                  key={index}
-                  className="border-2 hover:border-primary transition-colors duration-300 transform hover:scale-105 hover:shadow-[0_4px_20px_cyan]"
-                >
+  key={index}
+  className="border-2 hover:border-primary bg-gradient-to-br from-red-100 via-purple-100 to-yellow-100 transition-colors duration-300 transform hover:scale-105 hover:shadow-[0_4px_20px_cyan]"
+>
                   <CardContent className="pt-6 text-center flex flex-col items-center">
                     <div className="flex flex-col items-center justify-center">
                       {feature.icon}
